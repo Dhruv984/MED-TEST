@@ -1,0 +1,30 @@
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#79b6e7;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 4rem;
+}
+.subscribe__email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    
+}
+.subscribe__email input{
+    height: 2.5rem;
+    flex:1;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 4px;
+    border:1px solid black;
+    outline: none;
+    padding-left: 0.5rem;
+
+}
+.subscribe__email button{
+    margin-top:0;
+}

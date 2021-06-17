@@ -1,0 +1,17 @@
+.products{
+    margin-bottom: 5rem;
+}
+.products h1{
+    text-align: center;
+    color:#79b6e7;
+    font-family: 'Poppins', sans-serif;
+}
+.products__section{
+    border-radius: 10px;
+    height:auto;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}

@@ -1,0 +1,53 @@
+.feedback h1{
+    text-align: center;
+    color:#79b6e7;
+    font-family: 'Poppins', sans-serif;
+}
+.feedback h2{
+    text-align: center;
+    color:#79b6e7;
+    font-family: 'Poppins', sans-serif;
+}
+.feedback{
+    margin-bottom: 4rem;
+}
+.feedback form input{
+    height: 44px;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 4px;
+    border:1px solid black;
+    outline: none;
+}
+form>div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feedback__name,.feedback__email{
+    width:48%;
+    padding-left: 0.5rem;
+}
+.feedback__subject{
+    width:100%;
+    margin-top: 1.5rem;
+    padding-left: 0.5rem;
+}
+.feedback__message{
+    width:100%;
+    margin-top: 1.5rem;
+    padding-left: 0.5rem;
+    height:4.5rem;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 4px;
+    border:1px solid black;
+    outline: none;
+}
+form{
+     margin-bottom: 1.5rem;
+}
+.feedback button{
+    display: block;
+    margin: auto;
+}

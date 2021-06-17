@@ -1,0 +1,16 @@
+.header{
+    color:#79b6e7;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ img{
+    width:50%;
+}
+.buttons button{
+    margin:0.5rem;
+}

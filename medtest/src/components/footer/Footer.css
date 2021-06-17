@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding:1rem;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    font-weight: 600;
+}
+
+span{
+    font-weight: 700;
+    color: gray;
+}

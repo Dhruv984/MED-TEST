@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+.inner__container{
+    margin:0 2rem;
+}
+.btn{
+    border:1px solid black;
+    border-radius:0.5rem;
+    padding:0.5rem 1rem;
+    font-size:1.2rem;
+    cursor:pointer;
+    text-decoration: none;
+    text-align: center;
+
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn-primary{
+    background-color: #79b6e7;
+    color:#141E30;
+}
+.btn-secondary{
+    background-color: #cd3737;
+    color:#5e0f0f;
+}

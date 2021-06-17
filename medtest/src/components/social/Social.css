@@ -1,0 +1,14 @@
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem;
+    color:#79b6e7;
+    font-family: 'Poppins', sans-serif;
+    background-color: #141E30;
+}
+.social__content li{
+ margin-bottom: 0.5rem;
+}
+.social__content{
+    width:30%;
+}

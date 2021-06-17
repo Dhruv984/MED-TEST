@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Poppins:wght@100&display=swap');
+.navbar__wrapper{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    position: sticky;
+    top:0;
+    background-color: #141E30;
+    padding:10px 15px;
+    border-radius: 0 0 22px 22px;
+    z-index: 1;
+}
+.navbar__wrapper a{
+    font-size: 3rem;
+    color:#79b6e7;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar__wrapper div{
+    font-size: 1rem;
+    font-weight: 300;
+    color:#79b6e7;
+}
