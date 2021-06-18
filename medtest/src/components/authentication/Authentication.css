@@ -1,0 +1,45 @@
+.authentication{
+    
+    height:100vh;
+    display: grid;
+    place-items: center;
+    
+}
+.authentication__signIn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width:70%;
+    height:70%;
+    border-radius:4px;
+
+}
+.signIn__form{
+ display: flex;
+ flex-direction: column;
+ width:70%;
+}
+.signIn__form input{
+    margin: 0.5em;
+    height: 44px;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 4px;
+    border:1px solid black;
+    outline: none;
+    padding-left: 0.5rem;
+}
+.signIn__form button{
+    width:50%;
+}
+.authentication__submission{
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signUp__span:hover{
+    color:blue;
+}

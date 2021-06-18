@@ -7,12 +7,15 @@ body{
     background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+/* General classes */
 .container{
     max-width:1000px;
     margin:auto;
+    
 }
 .inner__container{
     margin:0 2rem;
+    
 }
 .btn{
     border:1px solid black;

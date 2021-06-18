@@ -11,7 +11,7 @@
 .feedback{
     margin-bottom: 4rem;
 }
-.feedback form input{
+.feedback__form input{
     height: 44px;
     box-shadow: none;
     font-size: 14px;
@@ -19,7 +19,7 @@
     border:1px solid black;
     outline: none;
 }
-form>div{
+.feedback__form div{
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -44,7 +44,7 @@ form>div{
     border:1px solid black;
     outline: none;
 }
-form{
+.feedback__form{
      margin-bottom: 1.5rem;
 }
 .feedback button{
