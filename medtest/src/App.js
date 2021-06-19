@@ -56,10 +56,12 @@ function App() {
         </Switch>:
         <>
          <Navbar user={user}/>
+         <div className='inner__container'>
          <Feedback />
          <Subscribe />
          <Social />
          <Footer />
+         </div>
          </>
          }
       </Router>

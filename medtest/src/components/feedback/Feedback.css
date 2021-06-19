@@ -51,3 +51,20 @@
     display: block;
     margin: auto;
 }
+@media only screen and (max-width:700px){
+    .feedback button{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:545px){
+    .feedback__form div{
+        flex-direction: column;
+    }
+    .feedback__name,.feedback__email{
+        width:100%;
+        margin-bottom: 1.5rem;
+    }
+    .feedback__subject{
+        margin-top: 0;
+    }
+}

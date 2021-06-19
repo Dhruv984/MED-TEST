@@ -12,6 +12,7 @@
     padding:10px 15px;
     border-radius: 0 0 22px 22px;
     z-index: 1;
+    width: 100%;
 }
 .navbar__wrapper a{
     font-size: 3rem;
@@ -24,4 +25,23 @@
     font-size: 1rem;
     font-weight: 300;
     color:#79b6e7;
+}
+@media only screen and (max-width:700px){
+    .navbar__wrapper a{
+        font-size: 2rem;
+    }
+    .navbar__wrapper button{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:430px){
+    .navbar__wrapper{
+        min-width: 400px;
+    }
+    .navbar__wrapper a{
+        font-size: 1.5rem;
+    }
+    .navbar__wrapper button{
+        font-size: 0.8rem;
+    }
 }

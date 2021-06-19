@@ -17,6 +17,18 @@ body{
     margin:0 2rem;
     
 }
+@media only screen and (max-width:430px){
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .container{
+        min-width: 400px;
+    }
+
+}
 .btn{
     border:1px solid black;
     border-radius:0.5rem;

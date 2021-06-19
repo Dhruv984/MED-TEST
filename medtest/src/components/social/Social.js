@@ -9,7 +9,6 @@ function Social() {
                 Goa Institute of Management
                 India
                 </p>
-                <p>Email: missionediit@gmail.com</p>
             </div>
             <div className='social__secondSection social__content'>
                 <h2>Useful Links</h2>

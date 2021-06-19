@@ -1,6 +1,6 @@
 .social{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding:2rem;
     color:#79b6e7;
     font-family: 'Poppins', sans-serif;
@@ -8,7 +8,31 @@
 }
 .social__content li{
  margin-bottom: 0.5rem;
+ list-style:none;
 }
 .social__content{
-    width:30%;
+    width:33%;
+}
+.social__content p{
+    padding: 1px;
+}
+@media only screen and (max-width:820px){
+    .social__content h2{
+       font-size:1rem;
+    }
+    .social{
+        padding:1rem;
+    }
+    .social__content li{
+        font-size: 0.8rem;
+    }
+    .social__content p{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width:700px){
+    .social{
+        flex-wrap: wrap;
+        color:#79b6e7;
+    }
 }

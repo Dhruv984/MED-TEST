@@ -26,7 +26,7 @@ function Subscribe() {
             <h1>Join Our Newsletter</h1>
             <h2>Enter your email here</h2>
             <div className='subscribe__email'>
-                <Input type='email' value={input} onChange={handleInput}></Input>
+                <input type='email' value={input} onChange={handleInput}></input>
                 <button className='btn btn-primary' type='submit' onClick={subscribers}>Subscribe</button>
             </div>
         </div>

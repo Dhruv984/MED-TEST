@@ -14,3 +14,41 @@
 .buttons button{
     margin:0.5rem;
 }
+@media only screen and (max-width:700px){
+    .header__left h1{
+        font-size:1.5rem;
+    }
+  .header__left h2{
+      font-size:1rem;
+  }
+  .buttons button{
+      padding:0.5rem 0.5rem;
+      font-size:1rem;
+  }
+  .header img{
+      width:60%;
+  }
+
+@media only screen and (max-width:545px){
+    .header__left h1{
+        font-size:1.2rem;
+    }
+    .header__left h2{
+        font-size:0.8rem;
+    }
+    .buttons button{
+        padding:0.5rem 0.5rem;
+        font-size:0.8rem;
+    }
+}
+@media only screen and (max-width:450px){
+    .header{
+        flex-direction: column-reverse;
+    }
+    .header img{
+        width:80%;
+    }
+}
+
+
+}

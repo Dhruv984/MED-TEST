@@ -15,3 +15,14 @@
     justify-content: center;
     flex-wrap:wrap;
 }
+@media only screen and (max-width:700px) {
+    .products__section{
+        padding:1rem;
+    }
+
+}
+@media only screen and (max-width:545px){
+    .products__section{
+        padding:0rem;
+    }
+}
