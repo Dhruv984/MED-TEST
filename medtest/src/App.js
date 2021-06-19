@@ -57,6 +57,7 @@ function App() {
         <>
          <Navbar user={user}/>
          <div className='inner__container'>
+         <Header />
          <Feedback />
          <Subscribe />
          <Social />

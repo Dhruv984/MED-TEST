@@ -17,15 +17,21 @@
 .subscribe__email input{
     height: 2.5rem;
     flex:1;
+    background-color: white;
+    outline:none;
     box-shadow: none;
     font-size: 14px;
     border-radius: 4px;
     border:1px solid black;
     outline: none;
-    padding-left: 0.5rem;
+
 
 }
-.subscribe__email button{
+.subscribe span{
+    color:red;
+    font-size: 0.5rem;
+}
+.subscribe__email  button{
     margin-top:0;
 }
 

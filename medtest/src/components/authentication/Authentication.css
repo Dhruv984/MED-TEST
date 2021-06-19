@@ -30,6 +30,10 @@
     outline: none;
     padding-left: 0.5rem;
 }
+.error{
+    color:red;
+    font-size: 0.5rem;
+}
 .signIn__form button{
     width:50%;
 }
